@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-chk-ip
+  labels:
+    app: deploy-chk-ip
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: deploy-chk-ip
+  template:
+    metadata:
+      labels:
+        app: deploy-chk-ip
+    spec:
+      containers:
+        - name: chk-ip
+          image: sysnet4admin/chk-ip
