@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: chk-ip
-          image: admin/chk-ip:1.0
+          image: 10.1.1.251:443/chk-ip:1.0
