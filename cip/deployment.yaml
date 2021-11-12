@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: chk-ip
-          image: harbor.giftsmartcon.com/chk-ip
+          image: harbor.giftsmartcon.com/admin/chk-ip
