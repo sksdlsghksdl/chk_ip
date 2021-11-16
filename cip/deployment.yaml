@@ -18,4 +18,4 @@ spec:
         - name: chk-ip
           image: 10.1.1.251/admin/chk-ip:1.0
       imagePullSecrets:
-        - name: regcred
+        - name: secret-code
