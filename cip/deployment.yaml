@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: chk-ip
-          image: 10.1.1.251/admin/chk-ip:1.0
+          image: 10.1.1.251:443/admin/chk-ip:1.0
       imagePullSecrets:
         - name: secret-code
